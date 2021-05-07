@@ -76,7 +76,7 @@ type CheveretoStruct struct {
 		SizeFormatted      string `json:"size_formatted"`
 		DisplayURL         string `json:"display_url"`
 		DisplayWidth       string `json:"display_width"`
-		DisplayHeight      int64  `json:"display_height"`
+		DisplayHeight      string `json:"display_height"`
 		ViewsLabel         string `json:"views_label"`
 		LikesLabel         string `json:"likes_label"`
 		HowLongAgo         string `json:"how_long_ago"`
