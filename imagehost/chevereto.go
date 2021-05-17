@@ -73,10 +73,10 @@ type CheveretoStruct struct {
 			URL       string `json:"url"`
 			Size      string `json:"size"`
 		} `json:"thumb"`
-		SizeFormatted      string `json:"size_formatted"`
-		DisplayURL         string `json:"display_url"`
-		DisplayWidth       string `json:"display_width"`
-		DisplayHeight      string `json:"display_height"` // For image uploaded from file
+		SizeFormatted string `json:"size_formatted"`
+		DisplayURL    string `json:"display_url"`
+		//DisplayWidth       string `json:"display_width"`
+		//DisplayHeight      string `json:"display_height"` // For image uploaded from file
 		ViewsLabel         string `json:"views_label"`
 		LikesLabel         string `json:"likes_label"`
 		HowLongAgo         string `json:"how_long_ago"`
